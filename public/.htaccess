@@ -1,10 +1,21 @@
 #리라이트 엔진을 활성화 합니다.
+<<<<<<< HEAD
 RewirteEngine On
 
 #상태와 디렉토리 링크
+=======
+RewriteEngine On
+
+# 상태와 디렉토리 링크
+>>>>>>> 218fa56e528e611b92756c172b54a92b297f62bf
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 
+<<<<<<< HEAD
 #쿼리스트링
 RewriteRule ^ index.php [QSA,L]
+=======
+# 쿼리스트링
+RewriteRule ^ index.php [QSA,L]
+>>>>>>> 218fa56e528e611b92756c172b54a92b297f62bf
