@@ -1,6 +1,9 @@
 <?php
-<<<<<<< HEAD
 // 이거는 매우 중요한 보안 파일이예여
-=======
-// 이거는 매우 중요한 보안 파일 이에요.
->>>>>>> 218fa56e528e611b92756c172b54a92b297f62bf
+return [
+  'user'=>"db2020",
+  'password'=>"123456",
+  'schema'=>"db2020",
+  'host'=>"localhost",
+  'charset'=>"utf8"
+];
