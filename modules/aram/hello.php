@@ -26,8 +26,10 @@ class Hello
     $DB_USER = "db2020";
     $DB_PASSWORD = "123456";
 
+    // 데이터베이스 설정값
     $dbinfo = include("../dbinfo.php");
-    $db = new \Jiny\Mysql\Connection($dbinfo);
+    print_r($dbinfo);
+    $db = new \Jiny\Mysql\Connection($dbinfo);  // 라이브러리, composer로 설치
 
     // 접속정보 설정
     // $db->setUser("db2020")->setPassword("123456");
